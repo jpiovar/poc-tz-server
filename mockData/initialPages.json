@@ -1,0 +1,29 @@
+[
+    {
+        "id": "pwhjj",
+        "name": "Prohlizeni WHJ Journalu",
+        "rolesAllowed": {
+            "type": "all"
+        }
+    },
+    {
+        "id": "rm",
+        "name": "Registrace materialu",
+        "rolesAllowed": {
+            "type": "selected",
+            "rolesList": [
+                "manager"
+            ]
+        }
+    },
+    {
+        "id": "sm",
+        "name": "Stavajici material",
+        "rolesAllowed": {
+            "type": "selected",
+            "rolesList": [
+                "worker"
+            ]
+        }
+    }
+]

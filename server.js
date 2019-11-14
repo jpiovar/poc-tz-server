@@ -5,7 +5,7 @@ var path = require('path');
 
 const mockCredentials = require('./mockData/allowedCredentials.json');
 const mockInitialData = require('./mockData/initialData.json');
-
+const mockInitialPages = require('./mockData/initialPages.json');
 
 var cors = require('cors');
 
@@ -163,7 +163,9 @@ app.get('/api/initialData', (req, res, next) => {
   res.status(202).json(mockInitialData);
 });
 
-
+app.get('/api/initialPages', (req, res, next) => {
+  res.status(202).json(mockInitialPages);
+});
 
 
 
