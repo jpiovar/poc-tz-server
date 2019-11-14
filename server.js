@@ -11,6 +11,8 @@ var cors = require('cors');
 
 var Promise = require("native-promise-only");
 
+
+// balast unused
 var p = new Promise(function(resolve,reject){
     var a = "aaaaaaaaaaaaaaa11111";
     //setTimeout(function(){
@@ -38,7 +40,7 @@ p.then(function(msg){
 });
 
 p1.then(function(jj){console.log(jj);});
-
+// balast unused
 
 
 
@@ -82,13 +84,11 @@ app.use(bodyParser.json());
 //      res.sendFile( __dirname + '/public/index.html' );
 // });
 
-
+// balast unused
 app.get('/city',function(req, res){
      console.log('city');
      res.status(200).sendFile( __dirname + '/public/index.html' );
 });
-
-
 
 app.get('/api/orders', (req, res, next) => {
     console.log('orders');
@@ -100,6 +100,11 @@ app.get('/api/users', (req, res, next) => {
   let users = mockCredentials;
   res.status(200).json(users);
 });
+// balast unused
+
+
+
+
 
 app.get('/api/authenticate', (req, res, next) => {
   const params = JSON.parse(req.query.params);
@@ -157,6 +162,11 @@ app.post('/api/authenticate',function(req, res){
   }
 });
 
+
+
+
+
+// balast unused
 app.post('/add',function(req, res){
   var thing = req.body.thingInput;
   //var thingDoc = new thingModel({thing: thing});
@@ -170,7 +180,6 @@ app.post('/add',function(req, res){
   });*/
 });
 
-
 app.post('/townAdd',function(req, res){
   var tic = req.body.townItemClient;
 
@@ -178,19 +187,7 @@ app.post('/townAdd',function(req, res){
 
   res.setHeader('content-type', 'application/json');
   res.json({ townA: 'server town response' });
-
 });
-
-
-
-
-
-
-
-
-
-
-
 
 app.post('/getRecord',function(req, res){
   var actionClient = req.body.action;
@@ -203,7 +200,7 @@ app.post('/getRecord',function(req, res){
   });
 
 });
-
+// balast unused
 
 
 
