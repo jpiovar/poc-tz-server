@@ -153,7 +153,8 @@ app.post('/api/authenticate',function(req, res){
       msg:'authentication done',
       id: up[0].id,
       name: up[0].name,
-      email: up[0].email
+      email: up[0].email,
+      role: up[0].role
     });
   } else if (up && up.length === 0) {
     res.status(202).json({
