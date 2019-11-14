@@ -1,16 +1,32 @@
-[{
+[
+  {
     "id": "1549306955000",
-    "author": "janko",
+    "author": {
+      "id": "j1",
+      "name": "janko",
+      "email": "janko@ok.ok",
+      "role": "manager"
+    },
     "text": "sense of life superman from earth",
     "answers": [
       {
         "id": "1549306984000",
-        "author": "janko",
+        "author": {
+          "id": "j1",
+          "name": "janko",
+          "email": "janko@ok.ok",
+          "role": "manager"
+        },
         "text": "nobody knows sense of life a"
       },
       {
         "id": "1549307024000",
-        "author": "hrasko",
+        "author": {
+          "id": "h1",
+          "name": "hrasko",
+          "email": "hrasko@ok.ok",
+          "role": "worker"
+        },
         "text": "nobody knows sense of life h"
       }
     ]
@@ -19,20 +35,36 @@
     "id": "1549307029000",
     "author": {
       "id": "h1",
-      "name": "hrasko",
-      "email": "hrasko@ok.ok"
+      "name": {
+        "id": "h1",
+        "name": "hrasko",
+        "email": "hrasko@ok.ok",
+        "role": "worker"
+      },
+      "email": "userHrasko@ok.ok"
     },
     "text": "sense of life and nonsense of all",
     "answers": [
       {
         "id": "1549307059000",
-        "author": "hrasko",
+        "author": {
+          "id": "h1",
+          "name": "hrasko",
+          "email": "hrasko@ok.ok",
+          "role": "worker"
+        },
         "text": "nobody knows sense of life jj"
       },
       {
         "id": "1549307077000",
-        "author": "janko",
+        "author": {
+          "id": "j1",
+          "name": "janko",
+          "email": "janko@ok.ok",
+          "role": "manager"
+        },
         "text": "nobody knows sense of life hh"
       }
     ]
-}]  
+  }
+]

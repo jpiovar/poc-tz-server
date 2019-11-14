@@ -131,10 +131,6 @@ app.get('/api/authenticate', (req, res, next) => {
   }
 });
 
-app.get('/api/initialData', (req, res, next) => {
-  res.status(202).json(mockInitialData);
-});
-
 app.post('/api/authenticate',function(req, res){
   const credentials = req.body.credentials;
   console.log('credentials ', credentials);
@@ -161,6 +157,10 @@ app.post('/api/authenticate',function(req, res){
       statusCase: 'failed',
       msg: 'authentication failed, wrong credentials' });
   }
+});
+
+app.get('/api/initialData', (req, res, next) => {
+  res.status(202).json(mockInitialData);
 });
 
 
