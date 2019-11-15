@@ -2,28 +2,25 @@
     {
         "id": "pwhjj",
         "name": "Prohlizeni WHJ Journalu",
-        "rolesAllowed": {
-            "type": "all"
+        "allowed": {
+            "read": ["manager", "worker", "coworker"],
+            "write": ["manager"]
         }
     },
     {
         "id": "rm",
         "name": "Registrace materialu",
-        "rolesAllowed": {
-            "type": "selected",
-            "rolesList": [
-                "manager"
-            ]
+        "allowed": {
+            "read": ["manager", "worker", "coworker"],
+            "write": ["manager", "worker"]
         }
     },
     {
         "id": "sm",
         "name": "Stavajici material",
-        "rolesAllowed": {
-            "type": "selected",
-            "rolesList": [
-                "worker"
-            ]
+        "allowed": {
+            "read": ["manager", "worker", "coworker"],
+            "write": ["manager", "worker"]
         }
     }
 ]
