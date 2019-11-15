@@ -11,7 +11,7 @@
         "id": "rm",
         "name": "Registrace materialu",
         "allowed": {
-            "read": ["manager", "worker", "coworker"],
+            "read": ["manager", "worker"],
             "write": ["manager", "worker"]
         }
     },
@@ -19,7 +19,7 @@
         "id": "sm",
         "name": "Stavajici material",
         "allowed": {
-            "read": ["manager", "worker", "coworker"],
+            "read": ["manager", "coworker"],
             "write": ["manager", "worker"]
         }
     }
