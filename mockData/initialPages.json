@@ -6,7 +6,7 @@
             "read": ["manager", "worker", "coworker"],
             "write": ["manager"]
         },
-        "items": [
+        "subpages": [
             {
                 "id": "home",
                 "name": "Domu Journal"
@@ -24,7 +24,7 @@
             "read": ["manager", "worker"],
             "write": ["manager", "worker"]
         },
-        "items": [
+        "subpages": [
             {
                 "id": "home",
                 "name": "Domu registrace materialu"
@@ -42,7 +42,7 @@
             "read": ["manager", "worker", "coworker"],
             "write": ["manager", "worker"]
         },
-        "items": [
+        "subpages": [
             {
                 "id": "home",
                 "name": "Domu stavajici material"
