@@ -5,7 +5,17 @@
         "allowed": {
             "read": ["manager", "worker", "coworker"],
             "write": ["manager"]
-        }
+        },
+        "items": [
+            {
+                "id": "home",
+                "name": "Domu Journal"
+            },
+            {
+                "id": "personalAdministration",
+                "name": "Osobni administrace Journal"
+            }
+        ]
     },
     {
         "id": "rm",
@@ -13,7 +23,17 @@
         "allowed": {
             "read": ["manager", "worker"],
             "write": ["manager", "worker"]
-        }
+        },
+        "items": [
+            {
+                "id": "home",
+                "name": "Domu registrace materialu"
+            },
+            {
+                "id": "personalAdministration",
+                "name": "Osobni administrace registrace materialu"
+            }
+        ]
     },
     {
         "id": "sm",
@@ -21,6 +41,16 @@
         "allowed": {
             "read": ["manager", "worker", "coworker"],
             "write": ["manager", "worker"]
-        }
+        },
+        "items": [
+            {
+                "id": "home",
+                "name": "Domu stavajici material"
+            },
+            {
+                "id": "personalAdministration",
+                "name": "Osobni administrace stavajici material"
+            }
+        ]
     }
 ]
