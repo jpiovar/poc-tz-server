@@ -19,7 +19,7 @@
         "id": "sm",
         "name": "Stavajici material",
         "allowed": {
-            "read": ["manager", "coworker"],
+            "read": ["manager", "worker", "coworker"],
             "write": ["manager", "worker"]
         }
     }
