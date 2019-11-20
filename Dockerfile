@@ -54,4 +54,4 @@ COPY . .
 RUN  npm run build
 
 EXPOSE 3030
-CMD ["npm", "run", "serve"]
+CMD ["npm", "run", "start"]
