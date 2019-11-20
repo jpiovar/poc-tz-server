@@ -51,7 +51,7 @@ COPY . .
 
 # build app for production with minification
 #RUN nvm use 10.15 \
-RUN  npm run build
+#RUN  npm run build
 
 EXPOSE 3030
 CMD ["npm", "run", "start"]
